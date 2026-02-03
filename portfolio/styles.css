@@ -140,3 +140,21 @@ body {
     font-weight: bold;
     color: #13084e;
 }
+
+/*achievement cards*/
+#achievementcontainer {
+    background-color: #db2b14;
+    width: 33%;
+    
+}
+
+.content2 {
+    display: flex;
+    margin-top: auto;
+}
+
+#trophy {
+    width: 33%;
+    height: 200px;
+    margin-top: auto;
+}
