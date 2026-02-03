@@ -1,0 +1,111 @@
+/*global*/
+body {
+    height: 100vh;
+    padding: 0%;
+    margin: 0%;
+}
+
+/*custom navbar*/
+
+#navbarlinklist {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    gap: 20px;
+    margin-right: 2%;
+}
+
+#navbar {
+    padding: 0%;
+    margin: 0%;
+    background-color: #0063B2;
+    color: #9CC3D5;
+}
+
+#title {
+    margin-right: auto;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.pagelinks a {
+    padding: 10px;
+    color: #9CC3D5;
+}
+
+.pagelinks a:hover {
+    padding: 10px;
+    background-color: #036db8;
+    border-radius: 4px;
+}
+
+.pagelinks a:active {
+    padding: 10px;
+    background-color: #036db8;
+    color: #db2b14;
+    border-radius: 4px;
+}
+
+.pagelinks a:after {
+    padding: 10px;
+    background-color: #085288;
+    color: #1488db;
+    border-radius: 4px;
+}
+
+/*home page content*/
+.maincontainer {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.maincontainer::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/homebg.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    z-index: 1;
+}
+
+/*content page styling home page*/
+.maincontainer .content1 {
+  position: relative;
+  z-index: 2;
+}
+
+/*content page styling achievements page*/
+.maincontainer .content2 {
+  position: relative;
+  z-index: 2;
+}
+
+.pfp {
+    margin: 5%;
+    width: 10%;
+    border-radius: 100px;
+}
+
+#name {
+    color: antiquewhite;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#position {
+    font-size: 25px;
+    font-weight: bold;
+    color: antiquewhite;
+}
