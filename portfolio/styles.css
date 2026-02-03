@@ -25,6 +25,7 @@ body {
 }
 
 #title {
+    font-size: 200%;
     margin-right: auto;
     margin-left: 2%;
     font-weight: bold;
@@ -92,14 +93,44 @@ body {
   z-index: 2;
 }
 
+/*content page styling backgroud page*/
+.maincontainer .content3 {
+    position: relative;
+    z-index: 2;
+}
+
+/*content page styling contacts page*/
+.maincontainer .content4 {
+    position: relative;
+    z-index: 2;
+}
+
+/*content page styling projects page*/
+.maincontainer .content5 {
+    position: relative;
+    z-index: 2;
+}
+
+/*content page styling skills page*/
+.maincontainer .content6 {
+    position: relative;
+    z-index: 2;
+}
+
+/*content page styling values page*/
+.maincontainer .content7 {
+    position: relative;
+    z-index: 2;
+}
+
 .pfp {
     margin: 5%;
-    width: 10%;
-    border-radius: 100px;
+    width: 50%;
+    border-radius: 1000px;
 }
 
 #name {
-    color: antiquewhite;
+    color:  #13084e;
     font-size: 50px;
     font-weight: bold;
 }
@@ -107,5 +138,5 @@ body {
 #position {
     font-size: 25px;
     font-weight: bold;
-    color: antiquewhite;
+    color: #13084e;
 }
